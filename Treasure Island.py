@@ -22,19 +22,19 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-direction = input("Choose a direction you want to go. Pick Left or Right? ").lower()
+direction = input('Choose a direction you want to go. Pick "Left" or "Right"? ').lower()
 if direction == "left":
     print("You are getting closer to your goal")
 
-    direction = input("You reach another crossroad. The three doors are across the lake. You are a world class swimmer. Do you swim"
-          " across or do you wait? Pick Swim or Wait ").lower()
+    direction = input('You reach another crossroad. The three doors are across the lake. You are a world class swimmer. Do you swim'
+          ' across or do you wait? Pick "Swim" or "Wait" ').lower()
 
     if direction == "wait":
         print("The lake splits in two like the Red Sea, giving you an easy way to cross and reach the final three doors"
               " toward your goal.")
         print("The Treasure is within reach.")
 
-        direction = input("You approach three doors, all aglow with a different color each. One red, One Yellow, One Blue."
+        direction = input('You approach three doors, all aglow with a different color each. One "Red", One "Yellow", One "Blue".'
                           " What do you choose? ").lower()
         if direction == "yellow":
             print("You win!!!!!!")
